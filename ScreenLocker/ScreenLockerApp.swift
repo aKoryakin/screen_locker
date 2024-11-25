@@ -6,12 +6,22 @@
 //
 
 import SwiftUI
+import FamilyControls
 
 @main
 struct ScreenLockerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LockerView(model: LockerViewModel())
+                .onAppear {
+                    Task {
+                        do {
+                            try await AuthorizationCenter.shared.requestAuthorization(for: .individual)
+                        } catch {
+                            print(error.localizedDescription)
+                        }
+                    }
+                }
         }
     }
 }

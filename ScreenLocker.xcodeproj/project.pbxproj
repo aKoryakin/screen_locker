@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		FA47A40D2CF084AA00F9FB00 /* ScreenLockerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A40C2CF084AA00F9FB00 /* ScreenLockerApp.swift */; };
-		FA47A40F2CF084AA00F9FB00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A40E2CF084AA00F9FB00 /* ContentView.swift */; };
+		FA47A40F2CF084AA00F9FB00 /* LockerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A40E2CF084AA00F9FB00 /* LockerView.swift */; };
 		FA47A4112CF084AB00F9FB00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA47A4102CF084AB00F9FB00 /* Assets.xcassets */; };
 		FA47A4142CF084AB00F9FB00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA47A4132CF084AB00F9FB00 /* Preview Assets.xcassets */; };
 		FA47A41E2CF084AB00F9FB00 /* ScreenLockerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A41D2CF084AB00F9FB00 /* ScreenLockerTests.swift */; };
 		FA47A4282CF084AB00F9FB00 /* ScreenLockerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A4272CF084AB00F9FB00 /* ScreenLockerUITests.swift */; };
 		FA47A42A2CF084AB00F9FB00 /* ScreenLockerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A4292CF084AB00F9FB00 /* ScreenLockerUITestsLaunchTests.swift */; };
+		FA47A4372CF08A5F00F9FB00 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A4362CF08A5F00F9FB00 /* ListItem.swift */; };
+		FA47A43A2CF091A700F9FB00 /* LockerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A4392CF091A700F9FB00 /* LockerViewModel.swift */; };
+		FA47A43C2CF09A6C00F9FB00 /* TimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A43B2CF09A6C00F9FB00 /* TimePickerView.swift */; };
+		FA47A43E2CF09C6800F9FB00 /* DayButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A43D2CF09C6800F9FB00 /* DayButtonsView.swift */; };
+		FA47A4402CF09C8B00F9FB00 /* DayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A43F2CF09C8B00F9FB00 /* DayButton.swift */; };
+		FA47A4432CF0A92500F9FB00 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A4422CF0A92500F9FB00 /* ListView.swift */; };
+		FA47A4452CF0D29600F9FB00 /* DayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA47A4442CF0D29600F9FB00 /* DayModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,7 @@
 /* Begin PBXFileReference section */
 		FA47A4092CF084AA00F9FB00 /* ScreenLocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenLocker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA47A40C2CF084AA00F9FB00 /* ScreenLockerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLockerApp.swift; sourceTree = "<group>"; };
-		FA47A40E2CF084AA00F9FB00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA47A40E2CF084AA00F9FB00 /* LockerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerView.swift; sourceTree = "<group>"; };
 		FA47A4102CF084AB00F9FB00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA47A4132CF084AB00F9FB00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA47A4192CF084AB00F9FB00 /* ScreenLockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,14 @@
 		FA47A4232CF084AB00F9FB00 /* ScreenLockerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenLockerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA47A4272CF084AB00F9FB00 /* ScreenLockerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLockerUITests.swift; sourceTree = "<group>"; };
 		FA47A4292CF084AB00F9FB00 /* ScreenLockerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenLockerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA47A4362CF08A5F00F9FB00 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		FA47A4382CF08F3500F9FB00 /* ScreenLocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ScreenLocker.entitlements; sourceTree = "<group>"; };
+		FA47A4392CF091A700F9FB00 /* LockerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockerViewModel.swift; sourceTree = "<group>"; };
+		FA47A43B2CF09A6C00F9FB00 /* TimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerView.swift; sourceTree = "<group>"; };
+		FA47A43D2CF09C6800F9FB00 /* DayButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayButtonsView.swift; sourceTree = "<group>"; };
+		FA47A43F2CF09C8B00F9FB00 /* DayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayButton.swift; sourceTree = "<group>"; };
+		FA47A4422CF0A92500F9FB00 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		FA47A4442CF0D29600F9FB00 /* DayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +109,12 @@
 		FA47A40B2CF084AA00F9FB00 /* ScreenLocker */ = {
 			isa = PBXGroup;
 			children = (
+				FA47A4382CF08F3500F9FB00 /* ScreenLocker.entitlements */,
 				FA47A40C2CF084AA00F9FB00 /* ScreenLockerApp.swift */,
-				FA47A40E2CF084AA00F9FB00 /* ContentView.swift */,
+				FA47A40E2CF084AA00F9FB00 /* LockerView.swift */,
+				FA47A4392CF091A700F9FB00 /* LockerViewModel.swift */,
+				FA47A4442CF0D29600F9FB00 /* DayModel.swift */,
+				FA47A4412CF0A1DE00F9FB00 /* Custom Views */,
 				FA47A4102CF084AB00F9FB00 /* Assets.xcassets */,
 				FA47A4122CF084AB00F9FB00 /* Preview Content */,
 			);
@@ -125,6 +144,26 @@
 				FA47A4292CF084AB00F9FB00 /* ScreenLockerUITestsLaunchTests.swift */,
 			);
 			path = ScreenLockerUITests;
+			sourceTree = "<group>";
+		};
+		FA47A4412CF0A1DE00F9FB00 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA47A43F2CF09C8B00F9FB00 /* DayButton.swift */,
+				FA47A43D2CF09C6800F9FB00 /* DayButtonsView.swift */,
+				FA47A43B2CF09A6C00F9FB00 /* TimePickerView.swift */,
+				FAB831832CF47E0F00DA9D2D /* List View */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		FAB831832CF47E0F00DA9D2D /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				FA47A4362CF08A5F00F9FB00 /* ListItem.swift */,
+				FA47A4422CF0A92500F9FB00 /* ListView.swift */,
+			);
+			path = "List View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA47A40F2CF084AA00F9FB00 /* ContentView.swift in Sources */,
+				FA47A4432CF0A92500F9FB00 /* ListView.swift in Sources */,
+				FA47A40F2CF084AA00F9FB00 /* LockerView.swift in Sources */,
+				FA47A4372CF08A5F00F9FB00 /* ListItem.swift in Sources */,
+				FA47A4452CF0D29600F9FB00 /* DayModel.swift in Sources */,
 				FA47A40D2CF084AA00F9FB00 /* ScreenLockerApp.swift in Sources */,
+				FA47A43C2CF09A6C00F9FB00 /* TimePickerView.swift in Sources */,
+				FA47A43A2CF091A700F9FB00 /* LockerViewModel.swift in Sources */,
+				FA47A43E2CF09C6800F9FB00 /* DayButtonsView.swift in Sources */,
+				FA47A4402CF09C8B00F9FB00 /* DayButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +465,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenLocker/ScreenLocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ScreenLocker/Preview Content\"";
+				DEVELOPMENT_TEAM = QF3EX4EKH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -447,9 +495,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ScreenLocker/ScreenLocker.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ScreenLocker/Preview Content\"";
+				DEVELOPMENT_TEAM = QF3EX4EKH4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
